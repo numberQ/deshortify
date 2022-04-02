@@ -10,7 +10,7 @@ function openPage(tab) {
 
 	const video_id = url_match[1];
 	
-	browser.tabs.create({
+	browser.tabs.update({
 		url: "https://www.youtube.com/watch?v=" + video_id
 	});
 }
