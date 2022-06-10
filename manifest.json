@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Deshortify",
-	"version": "0.1",
+	"version": "1.0",
 
 	"description": "Tired of YouTube Shorts? This extension will add a toolbar button that takes you directly to the regular old video player.",
 
@@ -16,8 +16,13 @@
 		}
 	},
 
+	"options_ui": {
+		"page": "options.html"
+	},
+
 	"permissions": [
-    	"tabs"
+    	"tabs",
+    	"storage"
   	],
 
 	"browser_specific_settings": {
